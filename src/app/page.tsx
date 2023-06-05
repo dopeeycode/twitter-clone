@@ -24,7 +24,7 @@ export default function page() {
             </span>
           </div>
         </section>
-        <section className="flex flex-1 h-screen max-[1012px]:justify-center ">
+        <section className="flex flex-1 h-screen max-[1012px]:justify-center max-[1012px]:items-center ">
           <div className="py-[3.75rem] max-[400px]:py-[2rem] pl-[6rem] pr-[6.25rem] max-[595px]:px-[1rem]">
             <Image src={logo} alt="" />
             <div className="mt-[3.5rem] max-[400px]:mt-[2rem]">

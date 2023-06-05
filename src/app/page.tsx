@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function page() {
   return (
-    <main className="h-full overflow-y-hiddenz w-screen">
+    <main className="h-full lg:overflow-y-hidden w-screen">
       <div className="flex items-center justify-center">
         <section className="flex-1 h-screen bg-twitterBlue max-[1012px]:hidden">
           <div className="flex flex-col justify-center p-20 ">
@@ -25,15 +25,15 @@ export default function page() {
           </div>
         </section>
         <section className="flex flex-1 h-screen max-[1012px]:justify-center ">
-          <div className="py-[3.75rem] pl-[6rem] pr-[6.25rem]">
+          <div className="py-[3.75rem] max-[400px]:py-[2rem] pl-[6rem] pr-[6.25rem] max-[595px]:px-[1rem]">
             <Image src={logo} alt="" />
-            <div className="mt-[3.5rem]">
+            <div className="mt-[3.5rem] max-[400px]:mt-[2rem]">
               <h1 className="text-[2.5rem] mb-[2rem] font-bold leading-[3.063rem] text-zinc-800
-              max-[428px]:text-[2rem]">
+              max-[423px]:text-[2rem] max-[423px]:leading-[2rem]">
                 Descubra o que <br /> está em alta
               </h1>
               <strong className="text-[1.25rem]  text-[#757575]">Entre no Twitter</strong>
-              <form className="flex flex-col mt-[1.188rem] w-[400px] max-[420px]:w-[300] gap-[1.188rem]">
+              <form className="flex flex-col mt-[1.188rem] w-[400px] max-[465px]:w-[300px] gap-[1.188rem]">
                 <input 
                   type="text" 
                   placeholder="Celular, e-mail ou nome de usuário" 
@@ -48,7 +48,7 @@ export default function page() {
                     Esqueceu sua senha ?
                   </a>
                 <button 
-                  type="submit" className="py-[0.375rem] px-[.75rem] bg-twitterBlue text-white h-[3.75rem] 
+                  type="submit" className="py-[0.375rem] px-[.75rem] w-full bg-twitterBlue text-white h-[3.75rem] 
                   mt-[1.5rem] rounded-md hover:bg-opacity-90 transition-all">
                   Conecte-se agora
                 </button>

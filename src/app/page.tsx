@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function page() {
   return (
-    <main className="h-full lg:overflow-y-hidden w-screen">
+    <main className="h-full overflow-y-hiddenz w-screen">
       <div className="flex items-center justify-center">
         <section className="flex-1 h-screen bg-twitterBlue max-[1012px]:hidden">
           <div className="flex flex-col justify-center p-20 ">
@@ -33,7 +33,7 @@ export default function page() {
                 Descubra o que <br /> está em alta
               </h1>
               <strong className="text-[1.25rem]  text-[#757575]">Entre no Twitter</strong>
-              <form className="flex flex-col mt-[1.188rem] w-[400px] max-[420px]:w-[300px] gap-[1.188rem]">
+              <form className="flex flex-col mt-[1.188rem] w-[400px] max-[420px]:w-[300] gap-[1.188rem]">
                 <input 
                   type="text" 
                   placeholder="Celular, e-mail ou nome de usuário" 
